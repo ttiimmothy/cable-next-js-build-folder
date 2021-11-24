@@ -1,4 +1,4 @@
-## cable-next-js
+## cable-next-js-out
 
 ### Quick setup — if you’ve done this kind of thing before
 Get started by creating a new file or uploading an existing file. We recommend every repository include a readme, license, and .gitignore.
@@ -6,7 +6,7 @@ Get started by creating a new file or uploading an existing file. We recommend e
 ### …or create a new repository on the command line
 
 ```
-echo "# cable-next-js" >> readme.md
+echo "# cable-next-js-out" >> readme.md
 git init
 git add readme.md
 git commit -m "first commit"
