@@ -8,7 +8,7 @@ Get started by creating a new file or uploading an existing file. We recommend e
 ```
 echo "# cable-next-js" >> readme.md
 git init
-git add README.md
+git add readme.md
 git commit -m "first commit"
 git branch -M master
 git remote add origin git@github.com:ttiimmothy/cable-next-js.git
