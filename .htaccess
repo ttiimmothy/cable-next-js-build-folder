@@ -1,4 +1,5 @@
 <IfModule mod_rewrite.c>
+DirectorySlash Off
 RewriteEngine On
 RewriteBase /subdirectory
 RewriteRule ^index\.html$ - [L]
