@@ -1,5 +1,7 @@
-<IfModule mod_rewrite.c>
+# Prevent mod_dir appending a slash to directory requests
 DirectorySlash Off
+
+<IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteBase /subdirectory
 RewriteRule ^index\.html$ - [L]
@@ -7,5 +9,4 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-l
 RewriteRule . /index.html [L]
-ErrorDocument 404 /404/index.html
 </IfModule>
