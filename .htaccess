@@ -1,4 +1,3 @@
-# Prevent mod_dir appending a slash to directory requests
 DirectorySlash Off
 
 <IfModule mod_rewrite.c>
